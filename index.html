@@ -1,6 +1,22 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-database.js"></script>
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyCNNUREIx3cvppkM3JkrRne4Rj9B9Nl26w",
+        authDomain: "multiplayer-balls.firebaseapp.com",
+        databaseURL: "https://multiplayer-balls-default-rtdb.firebaseio.com",
+        projectId: "multiplayer-balls",
+        storageBucket: "multiplayer-balls.appspot.com",
+        messagingSenderId: "924410723888",
+        appId: "1:924410723888:web:dfd47d5017f1183b1f37f5"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/p5.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.dom.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.sound.min.js"></script>
